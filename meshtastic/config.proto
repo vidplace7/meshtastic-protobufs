@@ -929,6 +929,29 @@ message Config {
        * Brazil 902MHz
        */
       BR_902 = 26;
+
+      /*
+       * Ham 70cm
+       * ITU Region 1 + ITU Region 2 + ITU Region 3:
+       * 430.0 - 440.0 MHz
+       */
+      HAM_70CM = 27;
+
+      /*
+       * Ham 1.25m ("125cm")
+       * ITU Region 2:
+       * 220.0 - 225.0 MHz
+       */
+      HAM_125CM = 28;
+
+      /*
+       * Ham 2m
+       * ITU Region 1:
+       * 144.0 - 146.0 MHz
+       * ITU Region 2 + ITU Region 3:
+       * 144.0 - 148.0 MHz
+       */
+      HAM_2M = 29;
     }
 
     /*
